@@ -1,0 +1,15 @@
+{
+    "manifest_version":2,
+    "name":"hello world",
+    "version":"1.0",
+    "description":"A hello world app",
+    "icons":{
+        "128":"icon128.png",
+        "48":"icon48.png",
+        "16":"icon16.png"
+    },
+    "browser-action":{
+        "default-icon":"icon16.png",
+        "default-popup":"popup.html"
+    }
+}
